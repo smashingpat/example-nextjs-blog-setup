@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "build:static": "next build && next export",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "faker": "^5.4.0",
+    "formidable": "^1.2.2",
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "slugify": "^1.4.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.1.6",
+    "@types/formidable": "^1.0.32",
+    "@types/node": "^14.14.28",
+    "@types/react": "^17.0.2",
+    "@types/uuid": "^8.3.0",
+    "typescript": "^4.1.5"
+  }
+}
